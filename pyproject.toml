@@ -11,6 +11,12 @@ dependencies = ["numpy>=1.26", "pandas>=2.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+analysis = [
+    "ipykernel>=6.29",
+    "matplotlib>=3.8",
+    "nbconvert>=7.16",
+    "statsmodels>=0.14",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
